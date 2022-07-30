@@ -25,16 +25,16 @@ int sumNumber(int num){
 int finalRes(string s){
     int result= sum(s);
     while (result>=10){
-        result =sumNumber(result);
+        sumNumber(result);
     }
-    return result;
+    return 
 }
 int main() {
 
     string s,s2;
     cin >>s>>s2;
 
-   cout<<finalRes(s)<<" "<<finalRes(s2);
+   cout<<finalRes(s)<<" "<<finalRes(s2));
 
 }
 
